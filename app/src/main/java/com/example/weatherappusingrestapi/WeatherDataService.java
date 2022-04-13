@@ -103,9 +103,19 @@ public class WeatherDataService {
                         one_day_weather.setVisibility(first_day_from_api.getLong("visibility"));
                         one_day_weather.setPredictability(first_day_from_api.getInt("predictability"));
                         weatherReportModels.add(one_day_weather);
-
+//                        Call main method functions here
+                        switch (one_day_weather.getWeather_state_name()) {
+                            case "clear":
+                                MainActivity.clear();
+                                break;
+                            case "cloudy":
+                                MainActivity.cloudy();
+                                break;
+                            case "rainy":
+                                MainActivity.rainy();
+                                break;
+                        }
                     }
-
                     forecastByIDResponse.onResponse(weatherReportModels);
 
                 } catch (JSONException e) {

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         final WeatherDataService weatherDataService = new WeatherDataService(MainActivity.this);
         //                passing MainActivity.this because we want to display the content to MainActivity and in MySingleton, the context which is to be passed is MainActivity.this
 
-        int a;
+
 //        btn_getWeatherByID.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -149,9 +149,22 @@ public class MainActivity extends AppCompatActivity {
 //                        Now putting the entire list into the listView
                         ArrayAdapter arrayAdapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, weatherReportModel);
                         lv_weatherReport.setAdapter(arrayAdapter);
+
                     }
                 });
             }
         });
+    }
+
+    public static void clear(){
+
+    }
+
+    public static void cloudy(){
+
+    }
+
+    public static void rainy(){
+
     }
 }
