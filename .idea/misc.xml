@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/WeatherAppUsingRestAPI/app/src/main/res/layout/activity_main.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/WeatherAppUsingRestAPI/app/src/main/res/drawable/gradient_background.xml" value="0.184" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/WeatherAppUsingRestAPI/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>

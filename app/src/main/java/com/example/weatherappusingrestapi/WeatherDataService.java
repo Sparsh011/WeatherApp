@@ -1,7 +1,6 @@
 package com.example.weatherappusingrestapi;
 
 import android.content.Context;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.Response;

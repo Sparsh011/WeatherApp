@@ -41,11 +41,11 @@ public class WeatherReportModel {
 
     @Override
     public String toString() {
-        return  weather_state_name  +
-                "\tDate: " + applicable_date  +
-                "\tLo: " + min_temp +
-                "\tHi: " + max_temp +
-                "\tTemp: " + the_temp
+        return  "Date: "+applicable_date  +
+                "\t\t\t"+weather_state_name  +
+                "\t\tLo: " + min_temp +
+                "\t\tHi: " + max_temp +
+                "\t\tTemp: " + the_temp
                 ;
     }
 
