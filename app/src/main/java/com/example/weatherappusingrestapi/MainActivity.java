@@ -2,6 +2,7 @@ package com.example.weatherappusingrestapi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -154,17 +155,5 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-    }
-
-    public static void clear(){
-
-    }
-
-    public static void cloudy(){
-
-    }
-
-    public static void rainy(){
-
     }
 }
